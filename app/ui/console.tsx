@@ -6,7 +6,7 @@ import { io, Socket } from "socket.io-client";
 
 let socket: Socket | undefined;
 const socketInitializer = async () => {
-  socket = io("https://gshd63ns-3333.use2.devtunnels.ms/");
+  socket = io("https://api.supply-corp.com");
 };
 
 interface LogData {
