@@ -13,4 +13,4 @@ EXPOSE 3334
 
 RUN npm run build
 
-CMD [ "npm", "start -- --port 3334" ]
+CMD [ "npm", "run", "start", "--", "--port", "3334" ]
